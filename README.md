@@ -40,7 +40,7 @@ Inputs:
 - $P$ represents the number of nodes inside the mesh.
 - $E$ is the heat transfer coefficient.
 - $T$ represents the temperature of each node.
-- $n_contorno$ represents the node in the contour.
+- $n_{contorno}$ represents the node in the contour.
 
 
 Outputs:
