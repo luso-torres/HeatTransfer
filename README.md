@@ -49,6 +49,8 @@ Outputs:
 It is the main function of this module, responsible to assemble each code descripted in this document. Its outputs are a set of images containing the results of the mesh generation, heat transfer rate and errors.
 Some of the results are:
 ![campolit](https://github.com/user-attachments/assets/78f25d48-f8ef-4445-9d6a-ba12a77d1ccb)
+![erroQ (1)](https://github.com/user-attachments/assets/8a2f539a-64fb-40af-a8e6-7ab69bc068ca)
+
 
 
 ## 4. gradiente 
