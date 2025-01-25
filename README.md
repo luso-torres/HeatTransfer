@@ -1,8 +1,8 @@
 # Heat Transfer algorithm
 
 The documents presented here were developed to demonstrate the heat transfer on a 2D-structural Finn applying the finite domain analysis CVFEM (Control Volume Finite Element Method). This is a symmetric problem solution with the following boundary conditions:
-- The object is at a fixed tempearture at one of the ends (200$^\circ$);
-- The environment temperature ($T_\infty$) is $25^\circ$
+- The object is at a fixed tempearture at one of the ends ($200^\circ C$);
+- The environment temperature ($T_\infty$) is $25^\circ C$
 
 Inside the folder "codigos" we can find 8 different codes, as follows:
 ## 1. Monta_A
