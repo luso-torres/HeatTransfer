@@ -54,11 +54,40 @@ Some of the results are:
 ## 4. gradiente 
 This functions calculates the temperature gradients as finite differences between each element inside the mesh.
 
+### Usage
+```MATLAB
+function [Aglobal,Xbci,Ybci] = area_contorno(P,E,T,n_contorno)
+
+```
+
+Inputs:
+- $P$ represents the number of nodes inside the mesh.
+- $E$ is the heat transfer coefficient.
+- $T$ represents the temperature of each node.
+- $n_contorno$ represents the node in the contour.
+
+
+Outputs:
+- $Aglobal$  is the global coefficient of the equivalent 3D heat transfer matrix (all points).
+- $Xbci,Ybci$ are the center node equivalent coordinates.
+
 ## 5. malha_grossa
 This codes generates the CVFEM coarse mesh.
+
+### Output
+![malha_grossa](https://github.com/user-attachments/assets/2fe438cd-364c-4a0e-8b97-78d6dd757993)
+
 
 ## 6. malha_refinada_manual_1 
 This codes generates the CVFEM coarse mesh with higher quality.
 
+### Output
+![Malha_refinada_1](https://github.com/user-attachments/assets/776e8373-adba-49c2-987e-890270195e31)
+
+
 ## 7. malha_refinada_manual_2 
 This codes generates the CVFEM fine mesh.
+
+### Output
+![Malha_refinada_2](https://github.com/user-attachments/assets/23fe03b2-0169-4811-9806-eed300a0a381)
+
