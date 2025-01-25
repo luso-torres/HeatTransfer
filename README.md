@@ -1,4 +1,4 @@
-# Heat Transfer algorithms
+# Heat Transfer algorithm
 
 The documents presented here were developed to demonstrate the heat transfer on a 2D-structural Finn applying the finite domain analysis CVFEM (Control Volume Finite Element Method). 
 
@@ -44,8 +44,18 @@ Inputs:
 Outputs:
 - $A_{ij}$ coefficients of the equivalent 3D heat transfer matrix.
 
-3. cod_principal -> It is the main function of this module, responsible to assemble each code descripted in this document. Its outputs are a set of images containing the results of the mesh generation, heat transfer rate and errors.
-4. gradiente -> This functions calculates the temperature gradients as finite differences between each element inside the mesh.
-5. malha_grossa -> This codes generates the CVFEM coarse mesh.
-6. malha_refinada_manual_1 ->This codes generates the CVFEM coarse mesh with higher quality.
-7. malha_refinada_manual_2 ->This codes generates the CVFEM fine mesh.
+## 3. cod_principal
+It is the main function of this module, responsible to assemble each code descripted in this document. Its outputs are a set of images containing the results of the mesh generation, heat transfer rate and errors.
+
+
+## 4. gradiente 
+This functions calculates the temperature gradients as finite differences between each element inside the mesh.
+
+## 5. malha_grossa
+This codes generates the CVFEM coarse mesh.
+
+## 6. malha_refinada_manual_1 
+This codes generates the CVFEM coarse mesh with higher quality.
+
+## 7. malha_refinada_manual_2 
+This codes generates the CVFEM fine mesh.
