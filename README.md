@@ -42,10 +42,13 @@ Inputs:
 
 
 Outputs:
-- $A_{ij}$ coefficients of the equivalent 3D heat transfer matrix.
+- $Aglobal$  is the global coefficient of the equivalent 3D heat transfer matrix (all points).
+- $Xbci,Ybci$ are the center node equivalent coordinates.
 
 ## 3. cod_principal
 It is the main function of this module, responsible to assemble each code descripted in this document. Its outputs are a set of images containing the results of the mesh generation, heat transfer rate and errors.
+Some of the results are:
+![campolit](https://github.com/user-attachments/assets/78f25d48-f8ef-4445-9d6a-ba12a77d1ccb)
 
 
 ## 4. gradiente 
