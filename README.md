@@ -60,11 +60,13 @@ This functions calculates the temperature gradients as finite differences betwee
 
 ### Usage
 ```MATLAB
-function [Aglobal,Xbci,Ybci] = area_contorno(P,E,T,n_contorno)
+function [k_dT_dxi,k_dT_dyi,ki] = gradiente(ke,Temp,P,E,T)
 
 ```
 
 Inputs:
+- $ke$ represents the equivalent temperature (average).
+- $Temp$ represent the concatenation of the temperatures. 
 - $P$ represents the number of nodes inside the mesh.
 - $E$ is the heat transfer coefficient.
 - $T$ represents the temperature of each node.
@@ -72,8 +74,8 @@ Inputs:
 
 
 Outputs:
-- $Aglobal$  is the global coefficient of the equivalent 3D heat transfer matrix (all points).
-- $Xbci,Ybci$ are the center node equivalent coordinates.
+- $KdTdxi,KdTdyi$  are the heat transfer rates values for $x$ and $y$, respectively.
+- $ki$ is the $i$-th heat transfer coefficient for each node i.
 
 ## 5. malha_grossa
 This codes generates the CVFEM coarse mesh.
