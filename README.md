@@ -10,6 +10,7 @@ $$ \int_{Vc}\nabla{\cdot (K\nabla{T})}dV = [A] [T] $$
 ```
 Where $[A]$ represents a 3-dimensional Matrix and $[T]$ represent 3-vector containing $x,y$ and $z$ components 
 
+### Usage
 
 ```MATLAB
 function [A] = Monta_A(k,P,T)
