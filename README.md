@@ -1,6 +1,8 @@
 # Heat Transfer algorithm
 
-The documents presented here were developed to demonstrate the heat transfer (conduction and convection) on a 2D-structural Finn applying the finite domain analysis CVFEM (Control Volume Finite Element Method). This is a symmetric problem solution with the following boundary conditions:
+The documents presented here were developed to demonstrate the heat transfer (conduction and convection) on a 2D-structural Finn applying the finite domain analysis CVFEM (Control Volume Finite Element Method).
+The proposed algorithm achieved a 97.8% efficiency compared to the analytical result.
+This is a symmetric problem solution with the following boundary conditions:
 - The object is at a fixed tempearture at one of the ends ($200^\circ C$);
 - The environment temperature ($T_\infty$) is $25^\circ C$
 
